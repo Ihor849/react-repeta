@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types'
-import css from './PageTitle.module.css'
 
-export const PageTitle = (props) => {
-    const {text} = props
-    return <h1 className={css.title}>{text}</h1>
+import {Title} from './PageTitle.module.css'
+
+export const PageTitle = ({text}) => {
+    return
+    <div>
+        <PageTitle className={css.title}>{text}</PageTitle>
+    </div>
 }
-
 PageTitle.propTypes = {
-    text: PropTypes.string.isRequired
+    text: PropTypes.string.isRequired,
 }
