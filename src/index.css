@@ -1,5 +1,5 @@
 @import-normalize;
-bring in normalize.css styles * {
+styles * {
   box-sizing: border-box;
   border-collapse: collapse;
 }

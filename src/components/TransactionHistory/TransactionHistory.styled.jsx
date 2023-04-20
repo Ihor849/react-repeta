@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
 export const Table = styled.table`
+	box-sizing: border-box;
+  border-collapse: collapse;
   width: ${props => props.theme.spacing(100)};
 	
   margin: 0 auto;
