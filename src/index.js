@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './components/css/index.css';
-import { App } from 'components/App/App';
+import './index.css';
+import { App } from './components/App/App';
 // import { ThemeProvider } from '@emotion/react';
 // import { theme } from './components/constants/theme';
 

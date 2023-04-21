@@ -1,4 +1,4 @@
-import { Alert } from '../../components/Alert';
+import { Alert } from 'components/Alert/Alert';
 import { Product } from 'components/Product/Product';
 
 const productCard = {
