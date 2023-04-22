@@ -1,11 +1,12 @@
+
+import css from './Alert.module.css'
 const alertStyles = {
   margin: 8,
-  padding: "12px 16px",
-  borderRadius: 4,
-  backgroundColor: "gray",
+  padding: "12 16",
+  borderRadius: "4",
+  backgroundColor: 'gray',
   color: "white",
-};
-
+}
 
 const getBgColor = variant => {
   switch (variant) {
@@ -25,6 +26,6 @@ const getBgColor = variant => {
 export const Alert = ({ variant, children }) => {
     console.log( variant);
     console.log(children);
-  return <p style={{ ...alertStyles, backgroundColor: getBgColor(variant) }}>
+  return <p style={{ ...alertStyles , backgroundColor: getBgColor(variant) }}>
       {children}</p>;
 };
